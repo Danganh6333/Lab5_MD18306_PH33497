@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionSearch"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_marginHorizontal="1dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableStart="@drawable/baseline_apartment_24"
+        android:hint="Tên nhà phân phối"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sửa" />
+
+</LinearLayout>
